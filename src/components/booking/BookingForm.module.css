@@ -1,0 +1,100 @@
+.form {
+  display: grid;
+  gap: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  font-family: 'Tajawal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fieldset {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 12px;
+  padding: 18px 20px 20px;
+  display: grid;
+  gap: 18px;
+}
+
+.fieldset legend {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0 6px;
+}
+
+.label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.95rem;
+  color: rgba(15, 23, 42, 0.78);
+}
+
+.label input,
+.label select,
+.label textarea {
+  border: 1px solid rgba(15, 23, 42, 0.16);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.label input[readonly],
+.fieldset:disabled input,
+.fieldset:disabled select {
+  background: rgba(148, 163, 184, 0.12);
+  color: rgba(15, 23, 42, 0.65);
+  cursor: not-allowed;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+.homeOptions {
+  display: grid;
+  gap: 18px;
+}
+
+.participants {
+  display: grid;
+  gap: 16px;
+}
+
+.participantCard {
+  border: 1px solid rgba(47, 128, 237, 0.28);
+  border-radius: 12px;
+  padding: 16px;
+  background: rgba(47, 128, 237, 0.06);
+  display: grid;
+  gap: 12px;
+}
+
+.participantCard h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submitButton {
+  background: linear-gradient(130deg, #2f80ed, #56ccf2);
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 26px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.submitButton:hover {
+  box-shadow: 0 12px 22px rgba(47, 128, 237, 0.3);
+}
